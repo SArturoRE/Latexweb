@@ -1,12 +1,42 @@
 *{
-  margin:10px;
-  padding:10px;
+  margin:0px;
+  padding:0px;
   font-family: Helvetica;
 }
 
 header{
+  margin:100px auto;
   width:1200px;
   height:230px;
   background-color: red;
 }
 
+div.contenedor{
+  width: 200px;
+  height: 230px;
+  float: left;
+}
+
+div#uno{
+  background-color: rgb(208, 101, 3);
+}
+div#dos{
+  background-color: rgb(233, 147, 26);
+}
+
+div#tres{
+  background-color: rgb(22, 145, 190);
+}
+
+div#cuatro{
+  background-color: rgb(22, 107, 162);
+}
+
+div#cinco{
+  background-color: rgb(27, 54, 71);
+}
+
+div#seis{
+  background-color: rgb(21, 40, 54);
+
+}
