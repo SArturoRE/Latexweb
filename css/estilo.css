@@ -15,6 +15,7 @@ div.contenedor{
   width: 200px;
   height: 230px;
   float: left;
+  -webkit-transition: height 0.4s;
 }
 
 div#uno{
@@ -39,4 +40,37 @@ div#cinco{
 div#seis{
   background-color: rgb(21, 40, 54);
 
+}
+
+img.icon{
+  display: block;
+  margin:50px auto;
+  background-color: rgba(255, 255, 255, 0.15);
+  width: 40px;
+  padding: 20px;
+  -webkit-border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+  -webkit-transition:box-shadow 0.4s;
+}
+
+p.texto{
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  opacity: 0.6;
+  -webkit-transition: padding-top 0.4s;
+}
+
+div.contenedor:hover{
+  height: 250px;
+}
+
+div.contenedor:hover p.texto{
+  padding-top: 30px;
+  opacity: 1;
+}
+
+div.contenedor:hover img.icon{
+  -webkit-box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0.1);
 }
